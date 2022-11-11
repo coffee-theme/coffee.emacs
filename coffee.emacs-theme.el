@@ -2,8 +2,8 @@
 
 ;;; Copyright (C) 2022-2023
 
-;;; Version: 1.1
-;;; Author: Ari Archer <ari.web.xyz@gmail.com>, Coffee-theme <ari.web.xyz@gmail>
+;;; Version: 1.2
+;;; Author: Ari Archer <ari.web.xyz@gmail.com>, Coffee-theme <ari.web.xyz@gmail.com>
 ;;; URL: https://github.com/coffee-theme/coffee.emacs
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -46,8 +46,30 @@
  '(link ((t (:foreground "#87afaf"))))
  '(highlight ((t (:background "#87afaf" :foreground "#3e3834"))))
  '(isearch ((t (:background "#bb6868" :foreground "#f9f6e8"))))
- '(default ((t (:background "#262220" :foreground "#fdf4c1"))))
- '(indent-guide-face ((t (:foreground "#464240" :slant normal)))))
+ '(indent-guide-face ((t (:foreground "#464240" :slant normal))))
+ '(show-paren-match ((t (:weight bold))))
+ '(show-paren-mismatch ((t (:foreground "#af5f5f" :weight bold))))
+ '(helm-ff-directory ((t (:extend t :foreground "#87afaf"))))
+ '(helm-selection ((t (:extend t :slant italic :weight bold))))
+ '(header-line ((t (:inherit mode-line :background "#262220" :foreground "#ddd0c0" :box nil))))
+ '(ansi-color-green ((t (:background "#87875f" :foreground "#87875f"))))
+ '(ansi-color-faint ((t (:foreground "#8f9494"))))
+ '(ansi-color-bright-black ((t (:background "#8f9494" :foreground "#8f9494"))))
+ '(ansi-color-cyan ((t (:background "#6d978a" :foreground "#6d978a"))))
+ '(ansi-color-bright-red ((t (:background "#bb6868" :foreground "#bb6868"))))
+ '(ansi-color-bright-green ((t (:background "#849155" :foreground "#849155"))))
+ '(ansi-color-bright-yellow ((t (:background "#c5c563" :foreground "#c5c563"))))
+ '(ansi-color-magenta ((t (:background "#cd7998" :foreground "#cd7998"))))
+ '(ansi-color-bright-white ((t (:background "#ddd0c0" :foreground "#ddd0c0"))))
+ '(ansi-color-bright-cyan ((t (:background "#7ca296" :foreground "#7ca296"))))
+ '(ansi-color-bright-blue ((t (:background "#87afaf" :foreground "#87afaf"))))
+ '(ansi-color-red ((t (:background "#af5f5f" :foreground "#af5f5f"))))
+ '(ansi-color-yellow ((t (:background "#bcbc6c" :foreground "#bcbc6c"))))
+ '(ansi-color-black ((t (:background "#262220" :foreground "#262220"))))
+ '(ansi-color-white ((t (:background "#bbbbbb" :foreground "#bbbbbb"))))
+ '(ansi-color-bright-magenta ((t (:background "#c987a0" :foreground "#c987a0"))))
+ '(ansi-color-blue ((t (:background "#666c7f" :foreground "#666c7f"))))
+ '(default ((t (:background "#262220" :foreground "#fdf4c1")))))
 
 ;;;###autoload
 (and load-file-name
